@@ -230,5 +230,10 @@ class MemberRepositoryTest {
 
         memberRepository.findLockByUsername(member1.getUsername());
     }
+
+    @Test
+    public void callCustom() {
+        memberRepository.findMemberCustom();
+    }
 }
 
